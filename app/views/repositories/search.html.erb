@@ -6,5 +6,5 @@
 <% end %>
 
 <%@repositories.each do |repo|%>
-<li><%=repo.name, repo.html_url, repo.description%></li>
+<li><%=repo.name%>, <%=repo.html_url%>, <%=repo.description%></li>
 <%end%>
